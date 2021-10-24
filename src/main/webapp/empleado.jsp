@@ -9,20 +9,7 @@
         <h1>Bienvenido</h1>
         <div>
             <h2>Datos del empleado</h2>
- 
-            <%=request.getParameter("statusEmployee")%>
             <br>
-            
-            <h4>Datos de experiencia</h4>
-            <br>
-            <%=request.getParameter("techEmployee")%>
-            <br>
-            <%=request.getParameter("xpEmployee")%>
-            <br>
-        </div>
-    </body>
-</html>
-           <br>
             <%=request.getParameter("nameEmployee")%>
             <br>
             <%=request.getParameter("phoneEmployee")%>
